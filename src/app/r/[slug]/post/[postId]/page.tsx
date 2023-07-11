@@ -1,5 +1,5 @@
 import { FC, Suspense } from 'react'
-import { PageProps } from '../../../../../../.next/types/app/layout'
+
 import { redis } from '@/lib/redis'
 import { CachedPost } from '@/types/redis'
 import { Post, User, Vote } from '@prisma/client'
